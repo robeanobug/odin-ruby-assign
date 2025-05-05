@@ -1,0 +1,13 @@
+---
+:secret_word: loans
+:num_guess: 5
+:already_guessed:
+- s
+- t
+- a
+:blanks:
+- _
+- _
+- a
+- _
+- s
