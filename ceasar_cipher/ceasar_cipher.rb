@@ -1,4 +1,4 @@
-def ceasar_cipher(string, shift_factor)
+def caesar_cipher(string, shift_factor)
   string.chars.each do |char|
     if char.ord.between?(65, 90)
       shifted_char = ((char.ord - 65 + shift_factor) % 26) + 65
@@ -12,4 +12,4 @@ def ceasar_cipher(string, shift_factor)
   end
 end
 
-ceasar_cipher('What a string!', 5)
+caesar_cipher('What a string!', 5)
