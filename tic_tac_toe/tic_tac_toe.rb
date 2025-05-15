@@ -123,5 +123,3 @@ class Game
     attr_reader :marker, :name
   end
 end
-
-Game.new
